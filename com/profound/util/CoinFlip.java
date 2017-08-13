@@ -2,12 +2,14 @@ package com.profound.util;
 import java.lang.Math;
 public class CoinFlip
 {
+	/*declaring variables*/
+	static	int trails;
+        static   int head=0;
+        static   int tail=0;
+        static   int i;
+
 	public static void main(String []args)
-	{
-		int trails;
-		int head=0;
-		int tail=0;
-		int i;
+{
 		trails=Integer.parseInt(args[0]);
 		for(i=1;i<=trails;i++)
 		{
