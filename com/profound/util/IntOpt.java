@@ -7,14 +7,17 @@
 package com.profound.util;
 import java.util.Scanner;
 public class IntOpt
+
 {
+	
+        /*variable for storing three inputs from user*/
+ 	static  int a,b,c;
+        static  int choice;
+        static  double result;
+
 	public static void main(String [] args)
-	{
-	/*variable for storing three inputs from user*/
-	int a,b,c;
-	int choice;
-	double result;
-	Scanner in=new Scanner(System.in);
+{
+	Scanner  in=new Scanner(System.in);
 	// initaializing variables
 	System.out.println("Enter value of a:");
 	a=in.nextInt();
